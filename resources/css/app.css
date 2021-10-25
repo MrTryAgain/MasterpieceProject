@@ -28,6 +28,21 @@ html, body{
     height: 100%;
 }
 
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+*/
+
 .bg-myGreen{
     background-color: var(--green-color);
 }

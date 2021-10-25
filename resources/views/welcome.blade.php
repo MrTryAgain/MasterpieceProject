@@ -75,7 +75,11 @@
         <div class="md:w-11/12 flex flex-wrap m-auto mt-5">
 
             <div class="md:w-3/12 w-full h-9/12 flex-grow pb"> <!-- linke Seite -->
-                <div class="entryTitle">Projekt Bla Bla 1</div>
+                <div class="entryTitle">
+                    <p>
+                        <h1>Projekt Nummer 1</h1>
+                    </p>
+                </div>
                 <div class="description">Beschreibung des Projekts mit unglaublich viel Bla Bla  </div>
             </div> 
 
