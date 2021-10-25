@@ -1,0 +1,53 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* color Palette argb Werte 
+    --green-color: #99ff99;
+    --blue-color: #6187ad;
+    --orange-color:#e9c985;
+    --red-color:#f59f9f;
+    --grey-color: #abaaa7;*/
+    
+:root {
+    --green-color: #99ff99;
+    --blue-color: #6187ad;
+    --orange-color:#e9c985;
+    --red-color:#f59f9f;
+    --grey-color: #abaaa7;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;    
+}
+
+html, body{
+    height: 100%;
+}
+
+.bg-myGreen{
+    background-color: var(--green-color);
+}
+
+.bg-myBlue{
+    background-color: var(--blue-color);
+}
+
+.bg-myRed{
+    background-color: var(--red-color);
+}
+
+.bg-myGrey{
+    background-color: var(--grey-color);
+}
+
+.text-myBlue{
+    color: var(--blue-color);
+}
+
+.text-myGrey{
+    color: var(--grey-color);
+}
