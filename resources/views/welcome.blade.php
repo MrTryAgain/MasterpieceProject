@@ -37,7 +37,7 @@
         @if (Route::has('login'))
 
     <!-- Desktop View Menu gedöngs oder so  -->
-            <div class="hidden  top-0 right-0 px-6 py-4 md:w-11/12 md:flex md:justify-end">
+            <div class="hidden top-0 right-0 px-2 py-4 md:w-11/12 md:flex md:justify-end">
                 @auth
                     <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
                 @else
@@ -50,7 +50,7 @@
             </div>
 
     <!-- Mobile View Gedöngs oder so ussä -->
-            <div class="block  top-0 right-0 px-6 py-4 sm:hidden flex flex-col">
+            <div class="block  top-0 right-0 px-2 py-4 sm:hidden flex flex-col">
                 @auth
                     <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
                 @else
@@ -64,49 +64,68 @@
         @endif
 <!-- Login Ende -->
 
+<!-- Zeit  desk vers-->
+<div class="hidden top-0 right-0 px-2 py-4 md:w-11/12 md:flex md:justify-end">
+    <p class="text-2xl font-bold  ">{{ date('d-m-Y H:i') }} Uhr</p>    
+</div>
+
+<!-- Zeit  mob vers-->
+<div class="block  top-0 right-0 px-2 py-4 sm:hidden flex flex-col ">
+    <p class="text-2xl font-bold  ">{{ date('d-m-Y H:i') }} Uhr</p>    
+</div>
 
 
     </header>
 
 
     
-    <main>
-        <!-- Projekt 1 -->
-        <div class="md:w-11/12 flex flex-wrap m-auto mt-5">
+    <main><!-- original start -->
+       
+        <div class="sm:ml-0 flex flex-wrap mt-5 ">
+             <!-- Projekt 1 -->
+            <div class="md:w-11/12 flex flex-wrap mt-5 mb-15">
 
-            <div class="md:w-3/12 w-full h-9/12 flex-grow pb"> <!-- linke Seite -->
-                <div class="entryTitle">Projekt Bla Bla 1</div>
-                <div class="description">Beschreibung des Projekts mit unglaublich viel Bla Bla  </div>
-            </div> 
+                <div class="md:w-3/12 w-full h-9/12 flex-grow pb-1"> <!-- linke Seite -->
+                    <div class="entryTitle text-2xl font-bold mb-5 ml-2">Projekt Bla Bla 1  </div> <!-- Titel -->
+                    <div class="description ml-2">Beschreibung des Projekts mit unglaublich viel Bla Bla</div> <!-- Beschreibung -->
+                </div> 
 
-            <div class="md:w-9/12 w-full flex-grow"> <!-- rechte Seite -->
-                <div class="iframe h-full w-full"><iframe style="width:100%; height:30rem; "src="https://www.leo.org"  frameborder="1"></iframe></div>
+                <div class="md:w-9/12 w-full flex-grow"> <!-- rechte Seite -->
+                    <div class="iframe h-full w-full"><iframe style="width:100%; height:30rem; "src="https://www.leo.org"  frameborder="1"></iframe></div>
+                </div>
+
+            </div>
+            
+            <!-- Projekt 2 -->
+            <div class="md:w-11/12 flex flex-wrap mt-10">
+
+                <div class="md:w-3/12 w-full h-9/12 flex-grow pb-1"> <!-- linke Seite -->
+                    <div class="entryTitle text-2xl font-bold mb-5 ml-2">Projekt Bla Bla 2</div> <!-- Titel -->
+                    <div class="description ml-2">Beschreibung des Projekts mit unglaublich viel Bla Bla  </div> <!-- Beschreibung -->
+                </div> 
+
+                <div class="md:w-9/12 w-full flex-grow"> <!-- rechte Seite -->
+                    <div class="iframe h-full w-full"><iframe style="width:100%; height:30rem; "src="https://coder-ipsum.tech/"  frameborder="1"></iframe></div>
+                </div>
+
+            </div>
+
+            <!-- Projekt 3-->
+            <div class="md:w-11/12 flex flex-wrap mb-10 mt-10">
+
+                <div class="md:w-3/12 w-full h-9/12 flex-grow pb-1"> <!-- linke Seite -->
+                    <div class="entryTitle text-2xl font-bold mb-5 ml-2">Projekt Bla Bla 3</div> <!-- Titel -->
+                    <div class="description ml-2">Beschreibung des Projekts mit unglaublich viel Bla Bla  </div> <!-- Beschreibung -->
+                </div> 
+
+                <div class="md:w-9/12 w-full flex-grow"> <!-- rechte Seite -->
+                    <div class="iframe h-full w-full"><iframe style="width:100%; height:30rem; "src="https://tailwindcss.com/docs/flex-wrap"  frameborder="1"></iframe></div>
+                </div>
+
+            </div>
+
         </div>
-
-        <!-- Projekt 2 -->
-        <div class="md:w-11/12 flex flex-wrap m-auto mt-5">
-
-            <div class="md:w-3/12 w-full h-9/12 flex-grow pb"> <!-- linke Seite -->
-                <div class="entryTitle">Projekt Bla Bla 2</div>
-                <div class="description">Beschreibung des Projekts mit unglaublich viel Bla Bla  </div>
-            </div> 
-
-            <div class="md:w-9/12 w-full flex-grow"> <!-- rechte Seite -->
-                <div class="iframe h-full w-full"><iframe style="width:100%; height:30rem; "src="https://coder-ipsum.tech/"  frameborder="1"></iframe></div>
-        </div>
-
-        <!-- Projekt 3-->
-        <div class="md:w-11/12 flex flex-wrap m-auto mt-5">
-
-            <div class="md:w-3/12 w-full h-9/12 flex-grow pb"> <!-- linke Seite -->
-                <div class="entryTitle">Projekt Bla Bla 3</div>
-                <div class="description">Beschreibung des Projekts mit unglaublich viel Bla Bla  </div>
-            </div> 
-
-            <div class="md:w-9/12 w-full flex-grow"> <!-- rechte Seite -->
-                <div class="iframe h-full w-full"><iframe style="width:100%; height:30rem; "src="https://tailwindcss.com/docs/flex-wrap"  frameborder="1"></iframe></div>
-        </div>
-
+        <!-- original ende -->
     <!-- ein Kommentar fürs commiten -->
     <!-- ein Kommentar fürs commiten -->
     <!-- ein Kommentar fürs commiten -->
@@ -121,11 +140,32 @@
 
 
     <footer>
+                        <!-- Box1 -->
+        <div class="flex space-x-8 mx-3">
+            <div class="box1 flex-grow h-12 bg-myGreen rounded-lg" ><p>Site & Concept<br>created by UC © {{ date('Y') }}</p></div>
 
+                        <!-- Box2 mit Logo -->
+            <div class="box2 flex-grow h-12 w-16 flex py-3 justify-center bg-myRed rounded-lg">
+                <a class="text-myGrey place-self-center" href=""><x-application-logo width="2rem" opacity="1" ></x-application-logo></a>
+            
+            </div>
+                        <!-- Box3 -->
+            <div class="box3 flex-grow h-12 bg-myGreen rounded-lg">
+                <address>More Info: <br> <a href="mailto:ucamenzind@gmx.ch">ucamenzind@gmx.ch</a></address>
+            </div>         
+        </div>
         
     </footer>
 
-
+    <div class="fixed z-30 bottom-0 right-0 mr-6 mb-6">
+        <a id="back2Top" href="#" class="bg-myGrey bg-opacity-50 rounded-md">
+            <span class="hidden">Back to Top</span>
+            <svg xmlns="http//www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" class="h-10 w-10">
+                        <path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L2,8L6,14L7.41,15.41Z" />
+            </svg>
+        </a>
+    </div>
+    <script src="./js/index.js"></script>
 
 </body>
 
