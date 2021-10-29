@@ -2,13 +2,19 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* color Palette argb Werte 
     --green-color: #99ff99;
     --blue-color: #6187ad;
     --orange-color:#e9c985;
     --red-color:#f59f9f;
     --grey-color: #abaaa7;*/
-    
+
+
 :root {
     --green-color: #99ff99;
     --blue-color: #6187ad;
@@ -51,3 +57,11 @@ html, body{
 .text-myGrey{
     color: var(--grey-color);
 }
+
+
+/* iframe */
+#frame{
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+}
+
