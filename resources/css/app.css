@@ -50,6 +50,10 @@ html, body{
     background-color: var(--grey-color);
 }
 
+.bg-myOrange{
+    background-color: var(--orange-color);
+}
+
 .text-myBlue{
     color: var(--blue-color);
 }
@@ -58,6 +62,13 @@ html, body{
     color: var(--grey-color);
 }
 
+.text-myRed{
+    color: var(--red-color);
+}
+
+.text-myGreen{
+    color: var(--green-color);
+}
 
 /* iframe */
 #frame{

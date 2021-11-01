@@ -31986,12 +31986,31 @@ html, body{
   background-color: var(--grey-color);
 }
 
+.bg-myOrange{
+  background-color: var(--orange-color);
+}
+
 .text-myBlue{
   color: var(--blue-color);
 }
 
 .text-myGrey{
   color: var(--grey-color);
+}
+
+.text-myRed{
+  color: var(--red-color);
+}
+
+.text-myGreen{
+  color: var(--green-color);
+}
+
+/* iframe */
+
+#frame{
+  -webkit-transform: scale(0.75);
+  -webkit-transform-origin: 0 0;
 }
 
 @media (min-width: 640px) {
@@ -188433,4 +188452,5 @@ html, body{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
 

@@ -16,7 +16,7 @@
 
         <div class="flex py-3 justify-center bg-myBlue">
             <!-- Logo --> <!-- erstellt die Variable opacity mit dem Wert 0-1 -->
-            <a class="text-myGrey place-self-center " href=""><x-application-logo width="6rem" opacity="1" ></x-application-logo></a>
+            <a class="text-myGrey place-self-center" href=""><x-application-logo width="6rem" opacity="1" ></x-application-logo></a>
         </div>
 
         <!-- Navbar Start-->
@@ -24,7 +24,7 @@
             <div>
                 <ul class="flex justify-evenly bg-red-500">
                     <a href=""><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">Home</li></a>
-                    <a href="{{ url('/playground1') }}"><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">P1</li></a>
+                    <a href=""><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">Projekt 1</li></a>
                     <a href=""><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">Projekt 2</li></a>
                     <a href=""><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">CV</li></a>
                 </ul>
@@ -158,10 +158,10 @@
     </footer>
 
     <div class="fixed z-30 bottom-0 right-0 mr-6 mb-6">
-        <a id="back2Top" href="#" class="bg-myRed bg-opacity-50 rounded-md">
+        <a id="back2Top" href="#" class="bg-myGrey bg-opacity-50 rounded-md">
             <span class="hidden">Back to Top</span>
             <svg xmlns="http//www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" class="h-10 w-10">
-                        <path  d="M7.41,15.41L12,10.83L16.59,15.41L18,14L2,8L6,14L7.41,15.41Z" />
+                        <path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L2,8L6,14L7.41,15.41Z" />
             </svg>
         </a>
     </div>

@@ -16,9 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+/* ab hier new sites Try LOL */
 
+Route::get('/playground1', function () {
+    return view('playground1');
+});
+
+
+Route::get('/messages', 'MessageController@showAll');
+
+/* ab hier new sites Try LOL ende */
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
