@@ -141,7 +141,7 @@
 
     <footer>
                         <!-- Box1 -->
-        <div class="flex space-x-8 mx-3">
+        <div class="flex space-x-8 mx-2">
             <div class="box1 flex-grow h-12 bg-myGreen rounded-lg" ><p>Site & Concept<br>created by UC © {{ date('Y') }}</p></div>
 
                         <!-- Box2 mit Logo -->
@@ -165,6 +165,7 @@
             </svg>
         </a>
     </div>
+    <!-- script für Back to Top Button -->
     <script src="./js/index.js"></script>
 
 </body>

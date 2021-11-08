@@ -31952,6 +31952,11 @@ html {
     --grey-color: #abaaa7;*/
 
 :root {
+  --greyDark-color: #545454;  /* new palette  */
+  --greyMed-color: #737373;
+  --greyBri-color: #dedede;
+  --greyLight-color: #F1F2F3;
+  --redDark-color: #6e1b0d;  /* new palette end */
   --green-color: #99ff99;
   --blue-color: #6187ad;
   --orange-color:#e9c985;
@@ -31969,6 +31974,52 @@ html {
 html, body{
   height: 100%;
 }
+
+/* background color */
+
+.bg-myGreyDark{
+  background-color: var(--greyDark-color);
+}
+
+.bg-myGreyMed{
+  background-color: var(--greyMed-color);
+}
+
+.bg-myGreyBri{
+  background-color: var(--greyBri-color);
+}
+
+.bg-myGreyLight{
+  background-color: var(--greyLight-color);
+}
+
+.bg-myRedDark{
+  background-color: var(--redDark-color);
+}
+
+/* text color */
+
+.text-myGreyDark{
+  color: var(--greyDark-color);
+}
+
+.bg-myGreyMed{
+  color: var(--greyMed-color);
+}
+
+.bg-myGreyBri{
+  color: var(--greyBri-color);
+}
+
+.bg-myGreyLight{
+  color: var(--greyLight-color);
+}
+
+.bg-myRedDark{
+  color: var(--redDark-color);
+}
+
+/* old palette */
 
 .bg-myGreen{
   background-color: var(--green-color);

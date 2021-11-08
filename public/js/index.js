@@ -2,7 +2,7 @@
 
 /* Back to top button */
 back2top.addEventListener('click', (e) => {
-e.preventDefault(); /* unterbinden dr standart aktion */
+e.preventDefault(); /* unterbinden der standart aktion */
 window.scroll({ top: 0, left:0, behavior: 'smooth'});/* dann gehe zu back top position angabe */
 });
 
@@ -11,9 +11,9 @@ window.scroll({ top: 0, left:0, behavior: 'smooth'});/* dann gehe zu back top po
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    const uhr = document.querySelectorAll('.uhr')
-console.log(uhr)/* loggen */
- const time = () => {
+  const uhr = document.querySelectorAll('.uhr')
+  console.log(uhr)/* loggen */
+  const time = () => {
   var d = new Date()
   var s = d.getSeconds()
   var m = d.getMinutes()

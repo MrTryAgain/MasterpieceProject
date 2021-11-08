@@ -16,7 +16,7 @@
 
         <div class="flex py-3 justify-center bg-myBlue">
             <!-- Logo --> <!-- erstellt die Variable opacity mit dem Wert 0-1 -->
-            <a class="text-myGrey place-self-center " href=""><x-application-logo width="6rem" opacity="1" ></x-application-logo></a>
+            <a class="text-myGrey place-self-center " href=""><x-application-logo width="24rem" opacity="1" ></x-application-logo></a>
         </div>
 
         <!-- Navbar Start-->
@@ -91,7 +91,7 @@
                 </div> 
 
                 <div class="md:w-9/12 w-full flex-grow"> <!-- rechte Seite -->
-                    <div class="iframe h-full w-full"><iframe style="width:100%; height:30rem; "src="https://www.leo.org"  frameborder="1"></iframe></div>
+                    <div class="iframe h-full w-full"><iframe style="width:100%; height:30rem; "src="https://welcomescreen-by-uc.netlify.app"  frameborder="1"></iframe></div>
                 </div>
 
             </div>
@@ -158,7 +158,7 @@
     </footer>
 
     <div class="fixed z-30 bottom-0 right-0 mr-6 mb-6">
-        <a id="back2Top" href="#" class="bg-myRed bg-opacity-50 rounded-md">
+        <a id="back2Top" href="#" class="bg-myblue bg-opacity-50 rounded-md">
             <span class="hidden">Back to Top</span>
             <svg xmlns="http//www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" class="h-10 w-10">
                         <path  d="M7.41,15.41L12,10.83L16.59,15.41L18,14L2,8L6,14L7.41,15.41Z" />
