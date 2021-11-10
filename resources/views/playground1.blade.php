@@ -14,19 +14,19 @@
 
     <header>
 
-        <div class="flex py-3 justify-center bg-myGreyMed">
+        <div class="flex py-3 justify-center bg-grey-medium">
             <!-- Logo --> <!-- erstellt die Variable opacity mit dem Wert 0-1 -->
-            <a class="text-myGreen place-self-center" href="{{ url('/') }}"><x-application-logo width="12rem" opacity="1" ></x-application-logo> </a>
+            <a class=" place-self-center" href="{{ url('/') }}"><x-application-logo width="20rem" opacity="1" ></x-application-logo> </a>
         </div>
 
         <!-- Navbar Start-->
         <nav>
             <div>
-                <ul class="flex justify-evenly bg-myredDark">
-                    <a href="{{ url('/') }}"><li class="bg-myRed py-3 w-20 sm:w-36 text-center rounded-lg">Home</li></a>
-                    <a href="{{ route('dashboard') }}"><li class="bg-myOrange py-3 w-20 sm:w-36 text-center rounded-lg" >Projekt 007</li></a>
-                    <a href=""><li class="bg-myGreyDark py-3 w-20 sm:w-36 text-center rounded-lg">Projekt 2</li></a>
-                    <a href=""><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">CV</li></a>
+                <ul class="flex justify-evenly bg-red">
+                    <a href="{{ url('/') }}"><li class="bg-red-light py-3 w-20 sm:w-36 text-center rounded-lg">Projekte</li></a>
+                    <a href=""><li class="bg-orange py-3 w-20 sm:w-36 text-center rounded-lg" >*o*</li></a>
+                    <a href="{{ url('hiPage') }}"><li class="bg-grey-dark py-3 w-20 sm:w-36 text-center rounded-lg">Hi Page</li></a>
+                    <a href="{{ route('dashboard') }}"><li class="bg-green py-3 w-20 sm:w-36 text-center rounded-lg">CV</li></a>
                 </ul>
             </div>
         </nav>
@@ -85,8 +85,8 @@
              <!-- Projekt 1 -->
             <div class="md:w-11/12 flex flex-wrap mt-5 mb-15">
 
-                <div class="md:w-3/12 w-full h-9/12 flex-grow pb-1"> <!-- linke Seite -->
-                    <div class="entryTitle text-2xl font-bold mb-5 ml-2">Projekt Bla Bla 1  </div> <!-- Titel -->
+                <div class="md:w-3/12 w-full h-9/12 flex-grow pb-1 "> <!-- linke Seite -->
+                    <div class="entryTitle text-2xl font-bold mb-5 ml-2 rounded-lg ">Projekt Bla Bla 1  </div> <!-- Titel -->
                     <div class="description ml-2">Beschreibung des Projekts mit unglaublich viel Bla Bla</div> <!-- Beschreibung -->
                 </div> 
 
@@ -95,6 +95,35 @@
                 </div>
 
             </div>
+
+
+
+
+        <div class="flex flex-col bg-white-medium  ">
+            <div class="flex-col bg-grey-light">
+
+                <div class="flex flex-grow bg-grey-light">
+
+                    <h2 class="flex flex-grow bg-gold-light p-2 m-2 hover:bg-gold rounded-lg">
+                        skills
+                    </h2>
+
+                </div>
+
+                <div class=" flex ">
+
+                    <p class="flex flex-wrap bg-white-medium rounded-lg m-2 p-2">Cotton candy muffin cookie powder carrot cake tart shortbread jelly beans pastry. Icing I love gingerbread I love wafer. Liquorice marzipan muffin bear claw pastry gingerbread icing. Ice cream candy canes chocolate gummies tiramisu. Bear claw shortbread icing toffee jelly gummi bears tootsie roll I love. Croissant pudding powder I love croissant. Tiramisu caramels cookie jelly chocolate cake bonbon biscuit bear claw sugar plum. Caramels cupcake pastry pudding pastry sesame snaps.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
 
                 <!-- Logo B-Ball -->
                 <svg class="ml-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 371.419 371.419" style="enable-background:new 0 0 371.419 371.419;" xml:space="preserve" width="128" height="128">
@@ -146,25 +175,25 @@
     <footer>
                         <!-- Box1 -->
         <div class="flex space-x-8 mx-2">
-            <div class="box1 flex-grow h-12 bg-myGreen rounded-lg" ><p>Site & Concept<br>created by UC © {{ date('Y') }}</p></div>
+            <div class="box1 flex-grow h-12" ><p class="bg-green rounded-lg">  Site & Concept<br>created by UC © {{ date('Y') }}</p></div>
 
                         <!-- Box2 mit Logo -->
-            <div class="box2 flex-grow h-12 w-16 flex py-3 justify-center bg-myRed rounded-lg">
-                <a class="text-myGrey place-self-center" href=""><x-application-logo width="2rem" opacity="1" ></x-application-logo></a>
+            <div class="box2 flex-grow h-12 w-16 flex py-3 justify-center bg-red rounded-lg">
+                <a class="text-grey place-self-center" href=""><x-application-logo width="2rem" opacity="1" ></x-application-logo></a>
             
             </div>
                         <!-- Box3 -->
-            <div class="box3 flex-grow h-12 bg-myGreen rounded-lg">
-                <address>More Info: <br> <a href="mailto:ucamenzind@gmx.ch">ucamenzind@gmx.ch</a></address>
+            <div class="box3 flex-grow h-12">
+                <address class="bg-green rounded-lg">More Info: <br> <a class="bg-green" href="mailto:ucamenzind@gmx.ch">ucamenzind@gmx.ch</a></address>
             </div>         
         </div>
         
     </footer>
 
-    <div class="fixed z-30 bottom-0 right-0 mr-6 mb-6 bg-GreyLight">
-        <a id="back2Top" href="#" class=" text-myRed bg-opacity-50 rounded-md">
+    <div class="fixed z-30 bottom-0 right-0 mr-6 mb-6  ">
+        <a id="back2Top" href="#" class="text-orange  rounded-md">
             <span class="hidden">Back to Top</span>
-            <svg xmlns="http//www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" class="h-10 w-10">
+            <svg xmlns="http//www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" class="h-10 w-10 bg-red">
                         <path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L2,8L6,14L7.41,15.41Z" />
             </svg>
         </a>

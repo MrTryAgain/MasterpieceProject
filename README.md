@@ -9,6 +9,90 @@
 
 ## About Laravel
 
+<!-- 
+tailwind.config.js
+
+const defaultTheme = require('tailwindcss/defaultTheme');
+const plugin = require('tailwindcss/plugin')
+const colors = require('tailwindcss/colors')
+
+module.exports = {
+    purge: [
+        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+        './storage/framework/views/*.php',
+        './resources/views/**/*.blade.php',
+    ],
+
+    theme: {
+        extend: {
+            fontFamily: {
+                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+            },
+        },
+    },
+
+
+    theme: {
+        backgroundColor: theme => ({
+        ...theme('colors'),
+        'pinky': '#BA3BDE',
+        'secondary': '#ffed4a',
+        'danger': '#e3342f',
+        })
+    },
+    
+    
+    variants: {
+        extend: {
+        'pinky': '#BA3BDE',
+        backgroundColor: ['active'],
+        opacity: ['disabled'],
+        }
+    },
+      
+
+
+
+    
+
+    /*  plugins: [require('@tailwindcss/forms')],
+      plugin(function({ addBase, theme }) {
+        addBase({
+        'h1': { fontSize: theme('fontSize.2xl') },
+        'h2': { fontSize: theme('fontSize.xl') },
+        'h3': { fontSize: theme('fontSize.lg') },
+        })
+    })
+    */
+};
+
+
+ -->
+
+
+<!-- alte Farben im app.css
+
+ --myBackground-color: #f6f6f6; /* Hintergrund Farbe der ganzen Seite */
+    --greyDark-color: #545454;  /* new palette  */
+    --greyMed-color: #737373;
+    --greyBri-color: #E0E0E0;   /* zweiter Layer */
+    --greyLight-color: #EAEAEA; /* erster Layer */
+    --greyTextLightBox-color: #EEEEEE;
+    --greyBackLight-color:#F1EFEF; 
+    --redDark-color: #6e1b0d;  /* new palette end */
+    --goldLight-color: #DBD6B9;
+    
+
+    --green-color: #99ff99;
+    --blue-color: #6187ad;
+    --orange-color:#e9c985;
+    --red-color:#f59f9f;
+    --grey-color: #abaaa7;
+
+ -->
+
+
+
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).

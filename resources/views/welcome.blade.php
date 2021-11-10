@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}"> <!-- stylesheet link aus dem z.B. guest.blade.php nehmen -->
     <script src="{{ asset('js/app.js') }}" defer></script> <!-- java script aus dem guest.blade.php nehmen -->
 <!--Link für die Fonts // <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"> -->
-    <title>mySites</title>
+    <title>Projekte</title>
 </head>
 
 <body>
@@ -23,10 +23,10 @@
         <nav>
             <div>
                 <ul class="flex justify-evenly bg-red-500">
-                    <a href=""><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">Home</li></a>
-                    <a href="{{ url('/playground1') }}"><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">P1</li></a>
-                    <a href=""><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">Projekt 2</li></a>
-                    <a href=""><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">CV</li></a>
+                    <a href=""><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">*o*</li></a>
+                    <a href="{{ url('playground1') }}"><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">Playground1</li></a>
+                    <a href="{{ url('hiPage') }}"><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">Hi Page</li></a>
+                    <a href="{{route('dashboard') }}"><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">CV</li></a>
                 </ul>
             </div>
         </nav>
