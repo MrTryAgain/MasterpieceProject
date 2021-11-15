@@ -92,6 +92,66 @@ module.exports = {
  -->
 
 
+<!-- Anfang Card copy original
+
+<div class="flex bg-white-medium md:gap-40  ">
+
+            <!-- erste Card links Projekte -->
+            <div class=" flex-wrap bg-grey-light md:h-auto md:w-3/12">
+
+                <div class="flex bg-grey-light ">
+                    <!-- Titel Textbox -->
+                    <h2 class="flex-grow bg-gold-light p-2 m-2 hover:bg-gold rounded-lg">Projekte</h2>
+
+                </div>
+
+                <div class="flex ">
+                    <!-- Beschreibung / Textbox -->
+                    <p class="flex bg-white-medium rounded-lg m-2 p-2">Cotton candy muffin cookie powder carrot cake tart shortbread jelly beans pastry. Icing I love gingerbread I love wafer. Liquorice marzipan muffin bear claw pastry gingerbread icing. Ice cream candy canes chocolate gummies tiramisu. Bear claw shortbread icing toffee jelly gummi bears tootsie roll I love. Croissant pudding powder I love croissant. Tiramisu caramels cookie jelly chocolate cake bonbon biscuit bear claw sugar plum. Caramels cupcake pastry pudding pastry sesame snaps.
+
+                    </p>
+
+                </div>
+
+            </div>
+            <!-- erste Card links Projekte Ende-->
+
+
+
+
+        <!-- zweite Card rechts CV -->
+        <div class="bg-grey-light md:h-auto md:w-3/12">
+
+                <div class="flex bg-grey-light ">
+                        <!-- Titel Textbox -->
+                        <h2 class="flex-grow bg-gold-light p-2 m-2 hover:bg-gold rounded-lg">Projekte</h2>
+
+                </div>
+
+                    <div class="flex ">
+                        <!-- Beschreibung / Textbox -->
+                        <p class="flex bg-white-medium rounded-lg m-2 p-2">Cotton candy muffin cookie powder carrot cake tart shortbread jelly beans pastry. Icing I love gingerbread I love wafer. Liquorice marzipan muffin bear claw pastry gingerbread icing. Ice cream candy canes chocolate gummies tiramisu. Bear claw shortbread icing toffee jelly gummi bears tootsie roll I love. Croissant pudding powder I love croissant. Tiramisu caramels cookie jelly chocolate cake bonbon biscuit bear claw sugar plum. Caramels cupcake pastry pudding pastry sesame snaps.
+
+                        </p>
+
+                    </div>
+
+        </div>
+        <!-- zweite Card rechts CV Ende-->
+
+
+ 
+            
+ 
+
+    </div>
+<!-- 2 Cards auf einem Blech Ende -->
+
+
+
+ --><!-- Ende copy cards original -->
+
+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 

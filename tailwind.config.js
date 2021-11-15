@@ -32,6 +32,7 @@ module.exports = {
             },
 
             grey: {
+                DEFAULT:'#7d7d7d',
                 dark: '#545454',            /* new palette  */
                 medium: '#737373',
                 bright: '#E0E0E0',          /* zweiter Layer */
@@ -83,12 +84,12 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-               'bannerino': "url('aProject/High_HDR.jpg')",
+               'bild1': "url('/High_HDR.jpg')",
                
               }
             }
 
-            /home/oppdev2021/aProjekt/aProject/High_HDR.jpg
+            
     
 
     /*  plugins: [require('@tailwindcss/forms')],
@@ -101,5 +102,5 @@ module.exports = {
     }) 
     */
 
-    }    
+    },   
 }

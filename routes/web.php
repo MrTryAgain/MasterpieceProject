@@ -20,17 +20,26 @@ Route::get('/', function () {
 
 Route::get('/playground1', function () {
     return view('playground1');
-});
+})->name('playground'); /* richtige Art named route */
 
 Route::get('/hiPage', function () {
     return view('hiPage');
 });
     
+Route::get('/projekte', function () {
+    return view('projekte');
+});
+
+Route::get('/cv', function () {
+    return view('cv');
+})->name('CV'); /* richtige Art named route */
 
 
 Route::get('/messages', 'MessageController@showAll');
 
 Route::get('/hiPage', 'HiPageController@showAll');
+
+
 
 /* ab hier new sites Try LOL ende */
 Route::get('/dashboard', function () {

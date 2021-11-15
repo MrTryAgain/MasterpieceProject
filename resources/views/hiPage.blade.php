@@ -8,6 +8,12 @@
     <script src="{{ asset('js/app.js') }}" defer></script> <!-- java script aus dem guest.blade.php nehmen -->
 <!--Link für die Fonts // <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"> -->
     <title>HiPage</title>
+
+<!-- Page Logo favicon -->
+<link rel="icon" type="image/svg+xml" href="{{ asset('/images/faviconAll/favicon.svg') }}">
+<link rel="icon" type="image/png" href="{{ asset('/images/faviconAll/favicon.png') }}">
+<!-- Page Logo favicon Ende-->
+    
 </head>
 
 <body>
@@ -23,10 +29,10 @@
         <nav>
             <div>
                 <ul class="flex justify-evenly bg-red">
-                    <a href="{{ url('/') }}"><li class="bg-red-light py-3 w-20 sm:w-36 text-center rounded-lg">Projekte</li></a>
-                    <a href=""><li class="bg-orange py-3 w-20 sm:w-36 text-center rounded-lg" >*o*</li></a>
-                    <a href="{{ url('playground1') }}"><li class="bg-grey-dark py-3 w-20 sm:w-36 text-center rounded-lg">Playground1</li></a>
-                    <a href="{{ route('dashboard') }}"><li class="bg-green py-3 w-20 sm:w-36 text-center rounded-lg">CV</li></a>
+                    <a href="{{ url('/') }}"><li class="bg-red-light py-3 w-20 sm:w-36 text-center rounded-lg">Welcome</li></a>
+                    <a href="{{ route('playground') }}"><li class="bg-orange py-3 w-20 sm:w-36 text-center rounded-lg" >Playground1</li></a>
+                    <a href=""><li class="bg-grey-dark py-3 w-20 sm:w-36 text-center rounded-lg">*o*</li></a>
+                    <a href="{{ url('projekte') }}"><li class="bg-myGreen py-3 w-20 sm:w-36 text-center rounded-lg">Projekte</li></a>
                 </ul>
             </div>
         </nav>
@@ -80,11 +86,15 @@
 
     
     <main>
-       
+    
+
 
 <!-- oberer Teil Banner -->
-<div class="p-2 m-2 h-32 w20 bg-red">
-    <a href="/generated.jpg"></a>
+<div>
+    <div class="bg-bild1">
+        <img class="p-2 m-2 w-screen " src="{{ asset('/images/bannerSVGTry.svg') }}" alt="BannerLogoYellow" >
+
+    </div>
 </div>
 
 
@@ -98,20 +108,23 @@
 
 
 <!-- 2 Cards auf einem Blech Start -->
-    <div class="flex flex-col bg-white-medium md:w-3/12  ">
+    <div class="flex bg-white-medium  ">
+        <!-- Container zum anpassen der cards -->
+        <div class="flex flex-wrap  md:justify-around h-100 ">
+
 
             <!-- erste Card links Projekte -->
-            <div class="flex-col bg-grey-light">
+            <div class=" flex-wrap bg-grey-light    md:w-3/12 md:ml-72">
 
-                <div class="flex flex-grow bg-grey-light md:gap-x-2">
+                <div class="flex bg-grey-light ">
                     <!-- Titel Textbox -->
-                    <h2 class="flex flex-grow bg-gold-light p-2 m-2 hover:bg-gold rounded-lg">Projekte</h2>
+                    <h2 class="flex-grow bg-gold-light p-2 m-2 hover:bg-gold rounded-lg">Projekte</h2>
 
                 </div>
 
-                <div class=" flex ">
+                <div class="flex ">
                     <!-- Beschreibung / Textbox -->
-                    <p class="flex flex-wrap bg-white-medium rounded-lg m-2 p-2">Cotton candy muffin cookie powder carrot cake tart shortbread jelly beans pastry. Icing I love gingerbread I love wafer. Liquorice marzipan muffin bear claw pastry gingerbread icing. Ice cream candy canes chocolate gummies tiramisu. Bear claw shortbread icing toffee jelly gummi bears tootsie roll I love. Croissant pudding powder I love croissant. Tiramisu caramels cookie jelly chocolate cake bonbon biscuit bear claw sugar plum. Caramels cupcake pastry pudding pastry sesame snaps.
+                    <p class="flex bg-white-medium rounded-lg m-2 p-2">Cotton candy muffin cookie powder carrot cake tart shortbread jelly beans pastry. Icing I love gingerbread I love wafer. Liquorice marzipan muffin bear claw pastry gingerbread icing. Ice cream candy canes chocolate gummies tiramisu. Bear claw shortbread icing toffee jelly gummi bears tootsie roll I love. Croissant pudding powder I love croissant. Tiramisu caramels cookie jelly chocolate cake bonbon biscuit bear claw sugar plum. Caramels cupcake pastry pudding pastry sesame snaps.
 
                     </p>
 
@@ -123,33 +136,41 @@
 
 
 
-
             <!-- zweite Card rechts CV -->
-            <div class="bg-grey-light">
+            <div class="bg-grey-light  md:w-3/12 md:mr-72">
 
-                <div class="flex flex-grow bg-grey-light">
-                    <!-- Titel Textbox -->
-                    <h2 class="flex flex-grow bg-gold-light p-2 m-2 hover:bg-gold rounded-lg">CV</h2>
+                    <div class="flex bg-grey-light pt-12 md:pt-0">
+                            <!-- Titel Textbox -->
+                            <h2 class="flex-grow bg-gold-light p-2 m-2 hover:bg-gold rounded-lg">CV</h2>
 
-                </div>
+                    </div>
 
-                <div class=" flex ">
-                    <!-- Beschreibung / Textbox -->
-                    <p class="flex  bg-white-medium rounded-lg m-2 p-2">Cotton candy muffin cookie powder carrot cake tart shortbread jelly beans pastry. Icing I love gingerbread I love wafer. Liquorice marzipan muffin bear claw pastry gingerbread icing. Ice cream candy canes chocolate gummies tiramisu. Bear claw shortbread icing toffee jelly gummi bears tootsie roll I love. Croissant pudding powder I love croissant. Tiramisu caramels cookie jelly chocolate cake bonbon biscuit bear claw sugar plum. Caramels cupcake pastry pudding pastry sesame snaps.
+                        <div class="flex ">
+                            <!-- Beschreibung / Textbox -->
+                            <p class="flex bg-white-medium rounded-lg m-2 p-2">Cotton candy muffin cookie powder carrot cake tart shortbread jelly beans pastry. Icing I love gingerbread I love wafer. Liquorice marzipan muffin bear claw pastry gingerbread icing. Ice cream candy canes chocolate gummies tiramisu. Bear claw shortbread icing toffee jelly gummi bears tootsie roll I love. Croissant pudding powder I love croissant. Tiramisu caramels cookie jelly chocolate cake bonbon biscuit bear claw sugar plum. Caramels cupcake pastry pudding pastry sesame snaps.
 
-                    </p>
+                            </p>
 
-                </div>
+                        </div>
 
             </div>
             <!-- zweite Card rechts CV Ende-->
+
+        </div>
+ 
+            
+ 
 
     </div>
 <!-- 2 Cards auf einem Blech Ende -->
 
 
 
-
+<!-- Placeholder Div -->
+<div class="p-2 m-2 h-32  bg-red  md:invisible">
+        <p>Magic happens</p>
+</div>
+<!-- Placeholder Div Ende-->
 
 
 
