@@ -99,8 +99,9 @@
         <!-- Mitte Banner -->
             <div  class="relative md:-top-32 mb-2 -top-6 flex h-12  md:m-12 sm:bg-gold-light sm:h-36 md:rounded-lg rounded-t-lg bg-white-medium justify-evenly">
 
-                <div class="flex ring ring-grey-medium md:ring-grey-medium md:ring-offset-4 ring-offset-2 md:mt-0 mt-2 h-8 w-auto md:h-28 sm:w-6/12  rounded-lg bg-grey-light self-center place-content-center">
-                    <h1 class="flex  self-center md:text-7xl font-bold text-lg">Hi, ich bin Urs</h1>
+                <div class="space-x-4 flex ring ring-grey-medium md:ring-grey-medium md:ring-offset-4 ring-offset-2 md:mt-0 mt-2 h-10 md:h-28 md:w-96 w-68 rounded-lg bg-grey-light self-center place-content-center">
+                    <img  src="{{ asset('/images/logos/UCthings.svg') }}" alt="Logo UC things">
+                    <h1 class="flex self-center   md:text-4xl font-bold text-base" >Hi, ich bin Urs</h1>
                 </div>            
 
             </div>
@@ -109,6 +110,8 @@
             
 
     </header>
+
+    
 
     
     <main>
@@ -128,9 +131,9 @@
 
 
 <!-- 2 Cards auf einem Blech Start -->
-    <div class="relative md:-top-32 -top-6 flex bg-white-medium  ">
+    <div class="relative md:-top-32 -top-6 flex bg-white-medium  "> <!-- Hintergrund Farbe setzen -->
         <!-- Container zum anpassen der cards -->
-        <div class="flex flex-wrap  md:justify-around h-100 ">
+        <div class="flex flex-wrap  md:justify-around h-100">
 
 
             <!-- erste Card links Projekte -->
@@ -194,14 +197,30 @@
     </main>
 
     
-    <footer class="rounded-t-lg">
+    <footer class="md:flex-row  rounded-t-lg space-x-32">
         <div class="flex place-content-center ">
-            <div class="flex bg-grey-light sm:w-6/12  rounded-lg md:-mt-24 -mt-2 md:mb-4 mb-2 self-center" >
-                <!-- Titel Textbox -->
-                <h2 class="flex-grow bg-gold-light p-2 m-2 hover:bg-gold rounded-lg text-center" img class="h-8 w-8 object-center" src="{{ asset('/images/mail.svg') }}" >&copy; 2021 created by UC</h2>
+            <div class="flex bg-grey-light sm:w-46  rounded-lg md:-mt-24 -mt-2 md:mb-4 mb-2 self-center" >
+                <!-- linke Info Box -->
+                <div class="  flex-grow bg-gold-light p-2 m-2 hover:bg-gold rounded-lg   ">
+                    <div>
+                        <address>
+                            <img class="flex object-scale-down md:h-16 h-12 " src="{{ asset('/images/logos/emailCopyComb.svg') }}" alt="Mail">
+                            <a href="mailto:ucamenzind@gmx.ch"></a> 
+                        </adress>
+                         
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+                
                  
             </div>
         </div>
+
+        
     </footer>
 
     

@@ -235,10 +235,162 @@
     <!-- ein Kommentar fürs commiten -->
     <!-- ein Kommentar fürs commiten -->
     
+    <!-- Abschnitt mit cards und Icons -->
+    <div class=" flex-wrap bg-grey-light    md:w-3/12 md:ml-72">
 
+<div class="flex bg-grey-light ">
+    <!-- Titel Textbox -->
+    <h2 class="flex-grow bg-gold-light p-2 m-2 mt-8 md:mt-2 hover:bg-gold rounded-lg md:text-2xl text-center">Skills</h2>
+
+</div>
+
+<div class="flex bg-white-medium rounded-lg m-2 p-2 md:text-lg text-justify ">
+    <!-- Beschreibung / Textbox -->
+    
+    <ul class="flex bg-white-medium rounded-lg m-2 p-2 md:text-lg text-justify "> 
+        <li>
+            <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+        </li>
+        <li>
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+
+        </li>
+        <li>
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+
+        </li>
+        <li>
+
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+        </li>
+        <li>
+
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+        </li>
+
+        <li>
+
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+        </li>
+    </ul>
+
+    <ul class="flex bg-white-medium rounded-lg m-2 p-2 md:text-lg text-justify "> 
+        <li>
+            <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+        </li>
+        <li>
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+
+        </li>
+        <li>
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+
+        </li>
+        <li>
+
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+        </li>
+        <li>
+
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+        </li>
+
+        <li>
+
+        <img class=" object-scale-down md:h-10 h-10 mx-2" src="{{ asset('/images/svgCards/mail.svg') }}" alt="Mail">
+        </li>
+    </ul>
     
 
+</div>
+
+</div>
+
+<!-- weitere Cards ohne ul und Li -->
+    
+<div class=" flex-wrap bg-grey-light    md:w-3/12 md:ml-72">
+
+        <div class="flex bg-grey-light ">
+            <!-- Titel Textbox -->
+            <h2 class="flex-grow bg-gold-light p-2 m-2 mt-8 md:mt-2 hover:bg-gold rounded-lg md:text-2xl text-center">Skills</h2>
+
+        </div>
+
+    <div class="flex bg-white-medium rounded-lg m-2 p-2 md:text-lg text-justify ">
+    <!-- Beschreibung / Textbox -->
+    
+                        <div>
+                        <img class="flex md:h-10 h-10 ml-2 mx-2 " src="{{ asset('/images/svgCards/html-5.svg') }}" alt="Mail">
+                        </div>
+
+                        <div>
+                        <img class="flex md:h-10 h-10 mx-2 " src="{{ asset('/images/svgCards/css-3.svg') }}" alt="Mail">
+                        </div>
+
+                        <div>
+                        <img class="flex md:h-10 h-10 mx-2 " src="{{ asset('/images/svgCards/github.svg') }}" alt="Mail">
+                        </div>
+
+                        <div>
+                        <img class="flex md:h-10 h-12 mx-2 " src="{{ asset('/images/svgCards/tailwind.svg') }}" alt="Mail">
+                        </div>
+
+                        <div>
+                        <img class="flex md:h-10 h-10 mx-2 " src="{{ asset('/images/svgCards/linux.svg') }}" alt="Mail">
+                        </div>
+
+                        <div >
+                        <img class="flex md:h-10 h-12  ml-2  " src="{{ asset('/images/svgCards/mysql-logo.svg') }}" alt="Mail">
+                        </div>
+
+                        <!-- 
+
+                         -->
+
+                         <div>
+                        <img class="flex  md:h-10 h-12 mx-2 " src="{{ asset('/images/svgCards/tailwind.svg') }}" alt="Mail">
+                        </div>
+
+                        <div>
+                        <img class="flex  md:h-10 h-10 mx-2 " src="{{ asset('/images/svgCards/linux.svg') }}" alt="Mail">
+                        </div>
+
+                        <div >
+                        <img class="flex  md:h-10 h-12  ml-2  " src="{{ asset('/images/svgCards/mysql-logo.svg') }}" alt="Mail">
+                        </div>
+
+                        <img class="flex  md:h-10 h-12 mx-2 " src="{{ asset('/images/svgCards/tailwind.svg') }}" alt="Mail">
+                        </div>
+
+                        <div>
+                        <img class="flex  md:h-10 h-10 mx-2 " src="{{ asset('/images/svgCards/linux.svg') }}" alt="Mail">
+                        </div>
+
+                        <div >
+                        <img class="flex  md:h-10 h-12  ml-2  " src="{{ asset('/images/svgCards/mysql-logo.svg') }}" alt="Mail">
+                        </div>
+
+                        <div >
+                        <img class="flex  md:h-10 h-12  ml-2  " src="{{ asset('/images/svgCards/mysql-logo.svg') }}" alt="Mail">
+                        </div>
+
+                        <img class="flex  md:h-10 h-12 mx-2 " src="{{ asset('/images/svgCards/tailwind.svg') }}" alt="Mail">
+                        </div>
+
+                        <div>
+                        <img class="flex  md:h-10 h-10 mx-2 " src="{{ asset('/images/svgCards/linux.svg') }}" alt="Mail">
+                        </div>
+
+                        <div >
+                        <img class="flex  md:h-10 h-12  ml-2  " src="{{ asset('/images/svgCards/mysql-logo.svg') }}" alt="Mail">
+                        </div>
+       
+    </div>
+
+</div>
    
+
+
 
 
     </main>
